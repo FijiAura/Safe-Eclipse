@@ -8,16 +8,14 @@
 	},
 	"version": "v1.5.0",
 	"id": "eclipse.eclipse-menu",
-	"name": "Eclipse",
+	"name": "Safe Eclipse",
 	"links": {
-		"homepage": "https://eclipse.menu",
-		"source": "https://github.com/EclipseMenu/EclipseMenu",
-		"community": "https://discord.gg/NnpwFRDMND"
+		"source": "https://github.com/FijiAura/Safe-Eclipse",
 	},
 	"api": { "include": [ "include/*.hpp" ] },
-	"tags": ["cheat", "gameplay", "utility", "customization", "interface"],
-	"developers": ["Eclipse Team", "ninXout", "Prevter", "maxnu", "Firee", "SpaghettDev"],
-	"description": "A next-generation mod menu for Geometry Dash.",
+	"tags": ["gameplay", "utility", "customization", "interface"],
+	"developers": ["Eclipse Team", "ninXout", "Prevter", "maxnu", "Firee", "SpaghettDev, FijiAura"],
+	"description": "A safe mod menu for Lightspeed.",
 	"early-load": true,
 	"incompatibilities": [{
 		"id": "prevter.openhack",
@@ -49,15 +47,7 @@
 			"UISheet": [ "resources/UISheet/*.png" ]
 		}
 	},
-	"dependencies": [{
-		"id": "eclipse.ffmpeg-api",
-		"version": ">=1.2.0",
-		"importance": "suggested"
-	}, {
-		"id": "dankmeme.globed2",
-		"version": ">=1.8.5",
-		"importance": "suggested"
-	}],
+	
 	"settings": {
 		"legacy-render": {
 			"name": "Use Legacy rendering",
