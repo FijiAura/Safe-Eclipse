@@ -11,7 +11,7 @@
 	"name": "Safe Eclipse",
 	"links": {
 		"source": "https://github.com/FijiAura/Safe-Eclipse",
-	},
+	}, {
 	"api": { "include": [ "include/*.hpp" ] },
 	"tags": ["gameplay", "utility", "customization", "interface"],
 	"developers": ["Eclipse Team", "ninXout", "Prevter", "maxnu", "Firee", "SpaghettDev, FijiAura"],
